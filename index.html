@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17111f">
+  <meta name="description" content="Patrimonio Oculto – Vértice 2026. Beta educativa de turismo de misterio en Papagayos, San Luis.">
+  <title>Patrimonio Oculto · Vértice 2026</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <button class="icon-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+      <div class="brand-mini">
+        <span>Patrimonio Oculto</span>
+        <small>VÉRTICE 2026</small>
+      </div>
+      <button class="icon-btn" id="alertBtn" aria-label="Ver alertas">⚠</button>
+    </header>
+
+    <main id="screen" class="screen" tabindex="-1"></main>
+
+    <nav class="bottom-nav" aria-label="Navegación principal">
+      <button data-nav="home" class="nav-item active">⌂<span>Inicio</span></button>
+      <button data-nav="map" class="nav-item">⌖<span>Mapa</span></button>
+      <button data-nav="visited" class="nav-item">◉<span>Mis visitas</span></button>
+      <button data-nav="info" class="nav-item">ⓘ<span>Info</span></button>
+    </nav>
+  </div>
+
+  <div id="drawer" class="drawer hidden">
+    <div class="drawer-card">
+      <button id="closeDrawer" class="close-btn">×</button>
+      <h2>Patrimonio Oculto</h2>
+      <p>Vértice 2026</p>
+      <hr>
+      <button data-nav="home">Inicio</button>
+      <button data-nav="map">Mapa del circuito</button>
+      <button data-nav="visited">Mis visitas</button>
+      <button data-nav="accessibility">Accesibilidad</button>
+      <button data-nav="info">Acerca del proyecto</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "Patrimonio Oculto – Vértice 2026",
+  "short_name": "Patrimonio Oculto",
+  "description": "Beta educativa del producto turístico de misterio/paranormal de Papagayos, San Luis.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0c0b10",
+  "theme_color": "#17111f",
+  "lang": "es",
+  "orientation": "portrait"
+}
